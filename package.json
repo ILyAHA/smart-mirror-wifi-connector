@@ -7,7 +7,7 @@
     "starter"
   ],
   "private": true,
-  "homepage": "http://ILyAHA.github.io/smart-mirror-wifi-connector",
+  "homepage": "https://ilyaha.github.io/smart-mirror-wifi-connector",
   "main": "src/index.js",
   "dependencies": {
     "@material-ui/core": "4.11.2",
