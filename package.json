@@ -17,13 +17,13 @@
     "react-scripts": "3.4.3"
   },
   "devDependencies": {
-    "gh-pages": "^2.0.1",
+    "gh-pages": "2.0",
     "typescript": "3.8.3"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "gh-pages -d build",
     "predeploy": "run npm build",
-    "deploy": "gh-pages -d build --git git",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
