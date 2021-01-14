@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/smart-mirror-wifi-connector/static/css/main.d542c90d.chunk.css",
+    "main.js": "/smart-mirror-wifi-connector/static/js/main.70803587.chunk.js",
+    "main.js.map": "/smart-mirror-wifi-connector/static/js/main.70803587.chunk.js.map",
+    "runtime-main.js": "/smart-mirror-wifi-connector/static/js/runtime-main.6e62c321.js",
+    "runtime-main.js.map": "/smart-mirror-wifi-connector/static/js/runtime-main.6e62c321.js.map",
+    "static/js/2.e530e4f3.chunk.js": "/smart-mirror-wifi-connector/static/js/2.e530e4f3.chunk.js",
+    "static/js/2.e530e4f3.chunk.js.map": "/smart-mirror-wifi-connector/static/js/2.e530e4f3.chunk.js.map",
+    "index.html": "/smart-mirror-wifi-connector/index.html",
+    "precache-manifest.73fa57e5f6ea59b96c539ffe54f3814b.js": "/smart-mirror-wifi-connector/precache-manifest.73fa57e5f6ea59b96c539ffe54f3814b.js",
+    "service-worker.js": "/smart-mirror-wifi-connector/service-worker.js",
+    "static/css/main.d542c90d.chunk.css.map": "/smart-mirror-wifi-connector/static/css/main.d542c90d.chunk.css.map",
+    "static/js/2.e530e4f3.chunk.js.LICENSE.txt": "/smart-mirror-wifi-connector/static/js/2.e530e4f3.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6e62c321.js",
+    "static/js/2.e530e4f3.chunk.js",
+    "static/css/main.d542c90d.chunk.css",
+    "static/js/main.70803587.chunk.js"
+  ]
+}
