@@ -2,16 +2,14 @@
   "name": "react",
   "version": "1.0.0",
   "description": "React example starter project",
-  "keywords": [
-    "react",
-    "starter"
-  ],
+  "keywords": ["react", "starter"],
+  "homepage": "ILyAHA.github.io/smart-mirror-wifi-connector",
   "main": "src/index.js",
   "dependencies": {
     "@material-ui/core": "4.11.2",
+    "qrcode.react": "1.0.1",
     "react": "17.0.0",
     "react-dom": "17.0.0",
-    "react-qr-code": "1.0.5",
     "react-scripts": "3.4.3"
   },
   "devDependencies": {
@@ -19,14 +17,11 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "predeploy": "run npm build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
-  "browserslist": [
-    ">0.2%",
-    "not dead",
-    "not ie <= 11",
-    "not op_mini all"
-  ]
+  "browserslist": [">0.2%", "not dead", "not ie <= 11", "not op_mini all"]
 }

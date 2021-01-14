@@ -1,7 +1,7 @@
 import React from "react";
 import "./styles.css";
 import { TextField } from "@material-ui/core";
-import QRCode from "react-qr-code";
+import QRCode from "qrcode.react";
 import Typography from "@material-ui/core/Typography";
 
 export default class App extends React.Component {
@@ -34,7 +34,7 @@ export default class App extends React.Component {
       <div className="App">
         <div id="qrCode">
           {this.isValidQRCode() ? (
-            <QRCode value={this.qrString()} />
+            <QRCode value={this.qrString()} size="192" />
           ) : (
             <Typography component="h1" variant="h5">
               Начните вводить название Wifi сети
