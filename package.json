@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "React example starter project",
   "keywords": ["react", "starter"],
-  "homepage": "ILyAHA.github.io/smart-mirror-wifi-connector",
+  "private": true,
+  "homepage": "http://ILyAHA.github.io/smart-mirror-wifi-connector",
   "main": "src/index.js",
   "dependencies": {
     "@material-ui/core": "4.11.2",
